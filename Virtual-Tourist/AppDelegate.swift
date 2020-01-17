@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Virtual-Tourist
 //
-//  Created by Abdulrahman Alrifae on 1/17/20.
+//  Created by Abdulrahman Alrifae on 1/15/20.
 //  Copyright © 2020 Udacity. All rights reserved.
 //
 
@@ -79,4 +79,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
+let ad =  UIApplication.shared.delegate as! AppDelegate
+let context = ad.persistentContainer.viewContext
